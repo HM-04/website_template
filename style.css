@@ -63,3 +63,48 @@ ul {
 }
 
 
+/* BODY STYLING */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.click {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 30px;
+    background-color: #939597;
+    width: 1914px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.java {
+    display: flex;
+    background-color: #3882F6;
+    gap: 30px;
+}
+
+.java_button {
+    background-color: #3882F6;
+    border-color: white;
+    width: 150px;
+    height: 100px;
+    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.java_button button {
+    background-color: #3882F6;
+    color: white;
+}
